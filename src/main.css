@@ -1,0 +1,75 @@
+/*
+ * Created on Wed Jul 26 2023
+ *
+ * The MIT License (MIT)
+ * Copyright (c) 2023 Ilya 'StormLord07' Repnev
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ * and associated documentation files (the "Software"), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial
+ * portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+ * TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #202020;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #004F9F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003E7E;
+}
+
+#result-value {
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.valid {
+    background-color: darkgreen !important;
+}
+
+.invalid {
+    background-color: darkred !important;
+}
